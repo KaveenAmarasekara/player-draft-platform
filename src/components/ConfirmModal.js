@@ -31,14 +31,13 @@ const ConfirmModal = () => {
   }
 
     return ( 
-        <>
 
       <Modal show={confirm} onHide={handleClose} size='sm' centered>
         <Modal.Header closeButton>
         <Modal.Title>{players[playerIndex].name} <Badge bg="success">Sold to</Badge></Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <Image src={require(`../Assets/Teams/team${curr+1}.jpeg`)} fluid rounded/>
+          <Image src={require(`../Assets/Teams/team${curr+1}.jpeg`)} alt={teams.name} fluid rounded/>
         </Modal.Body>
         <Modal.Footer>
           <Button variant="outline-secondary" onClick={handleClose}>
@@ -49,7 +48,7 @@ const ConfirmModal = () => {
           </Button>
         </Modal.Footer>
       </Modal>
-    </>
+
      );
 }
  

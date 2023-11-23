@@ -3,13 +3,14 @@ import Col from 'react-bootstrap/Col';
 import {useData} from '../Data.Context'
 import '../styles'
 
+//Right section[Balance_column]
 
 const BalComponent = () => {
     const {teams} = useData()
 
     return ( 
         <div className='bal-container'>
-            <h5 style={{marginBottom:'1em'}}>Balance</h5>
+            <h4 style={{marginBottom:'1em'}}>Balance</h4>
             {teams.map((team,index)=>(
                     <Row style={{fontSize:'1.2em',padding:'1em',fontWeight:'400'}} key={index}>
                         <Col>{team.name}</Col>
