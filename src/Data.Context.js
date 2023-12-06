@@ -14,37 +14,56 @@ const teamData = [
         name:'White Wolves',
         balance: 8000,
         short:'WW',
-        color:'#05BAD9'
+        color:'#05BAD9',
+        girls: 0,
+        boys: 0,
+        total: 0
     },
     {
         name:'Blue Titans',
         balance: 8000,
         short:'BT',
-        color:'#291FC0'
+        color:'#291FC0',
+        girls: 0,
+        boys: 0,
+        total: 0
     },
     {
         name:'Red Raptors',
         balance: 8000,
         short:'RR',
-        color:'#DE0500'
+        color:'#DE0500',
+        girls: 0,
+        boys: 0,
+        total: 0
     },
     {
         name:'Golden Lions',
         balance: 8000,
         short:'GL',
-        color:'#F4A735'
+        color:'#F4A735',
+        girls: 0,
+        boys: 0,
+        total: 0
     },
     {
         name:'Black Panthers',
         balance: 8000,
         short:'BP',
-        color:'#28374A'
+        color:'#7C7C7C',
+        girls: 0,
+        boys: 0,
+        total: 0
     },
     {
         name:'Green Gladiators',
         balance: 8000,
         short:'GG',
-        color:'#01371F'
+        color:'#2D9312',
+        girls: 0,
+        boys: 0,
+        total: 0
+        //color:'#01371F'
     },
 ]
 
@@ -53,10 +72,9 @@ export const DataProvider = ({children}) => {
 
     const [bid, updateBid] = useState(0)
     const [confirm, setConfirm] = useState(false);
-    const [curr,setCurr] = useState(null)
-    const [his,setHis] = useState([])
-    const [playerIndex,setPlayerIndex] = useState(0)
-
+    const [curr, setCurr] = useState(null)
+    const [his, setHis] = useState([])
+    const [playerIndex, setPlayerIndex] = useState(0)
 
     const [teams, setTeams] = useState(()=>{
         const localTeamsData = localStorage.getItem('teams')

@@ -1,486 +1,606 @@
 export const playerProfiles = [
+
+  //var name: player name, img: player profile, gender: 0(Female) 1(Male)
+
     {
-      name: "Thisuru Dineth",
-      img: 1
+      name: "Siyath Rajakarunaratne",
+      img: 1,
+      gender: 1
+      
     },
     {
-      name: "Kevith mannage",
-      img: 2
+      name: "Isitha Dinujaya",
+      img: 2,
+      gender: 1
     },
     {
-      name: "Ushan Chamika Karunarathna",
-      img: 3
+      name: "Chamli Kariyawasam",
+      img: 3,
+      gender: 1
     },
     {
-      name: "Lahiru lokubalasooriya",
-      img: 4
+      name: "Mahiru Chamudith",
+      img: 4,
+      gender: 1
     },
     {
-      name: "Chamitha Jayavihan",
-      img: 5
+      name: "Sumudu Wijebandara",
+      img: 5,
+      gender: 1
     },
     {
-      name: "Kushad Dissanayake",
-      img: 6
+      name: "Masith Abeysinghe",
+      img: 6,
+      gender: 1
     },
     {
-      name: "Nikesh Miranda",
-      img: 7
+      name: "Lalanga Nandiwardana",
+      img: 7,
+      gender: 1
     },
     {
-      name: "P. H. N. Samadit",
-      img: 8
+      name: "Hiruna Kariyawasam",
+      img: 8,
+      gender: 1
     },
     {
-      name: "Benul",
-      img: 9
+      name: "Laknidu Adikari",
+      img: 9,
+      gender: 1
     },
     {
-      name: "Shamith indusara",
-      img: 10
+      name: "Dulen sandiw",
+      img: 10,
+      gender: 1
     },
     {
-      name: "Raneesha Gamage",
-      img: 11
+      name: "Thevindu Gunasekara",
+      img: 11,
+      gender: 1
     },
     {
-      name: "Thusith Wijewardena",
-      img: 12
+      name: "Pasindu Imasha",
+      img: 12,
+      gender: 1
     },
     {
-      name: "Nimeth",
-      img: 13
+      name: "Janidu Tehan",
+      img: 13,
+      gender: 1
     },
     {
-      name: "Hirun Wijerathne",
-      img: 14
+      name: "Oshan Silva",
+      img: 14,
+      gender: 1
     },
     {
-      name: "Pramod Kottage",
-      img: 15
+      name: "Gimal Weerasekera",
+      img: 15,
+      gender: 1
     },
     {
-      name: "bishma jayasundara",
-      img: 16
+      name: "Nemith Kaluarachchi",
+      img: 16,
+      gender: 1
     },
     {
-      name: "Pawan Sri Poornima",
-      img: 17
+      name: "Nirmala Warushavithana",
+      img: 17,
+      gender: 1
     },
     {
-      name: "Dineth Bhagya",
-      img: 18
+      name: "Jeenuka Seneviratne",
+      img: 18,
+      gender: 1
     },
     {
-      name: "Anjana Gunasinghe",
-      img: 19
+      name: "Thevindu Fernando",
+      img: 19,
+      gender: 1
     },
     {
-      name: "RaRasheen",
-      img: 20
+      name: "Rochitha Ranaweera",
+      img: 20,
+      gender: 1
     },
     {
-      name: "Daham Dulsara",
-      img: 21
+      name: "Yahani Jayawardhana",
+      img: 21,
+      gender: 0
     },
     {
-      name: "Piyath Manura",
-      img: 22
+      name: "Pevindee Pupulawatte",
+      img: 22,
+      gender: 0
     },
     {
-      name: "Chamod perera",
-      img: 23
+      name: "Mahimi Colombavidanage",
+      img: 23,
+      gender: 0
     },
     {
-      name: "Vihanga Kaveeshwara",
-      img: 24
+      name: "Thisakya Gunasekara",
+      img: 24,
+      gender: 0
     },
     {
-      name: "Shavinka Rushen",
-      img: 25
+      name: "Dilni Nimanya",
+      img: 25,
+      gender: 0
     },
     {
-      name: "Shenal Fernando",
-      img: 26
+      name: "Supun Prasad Kaushalya",
+      img: 26,
+      gender: 1
     },
     {
-      name: "Chandupa Dineshara",
-      img: 27
+      name: "Isuru Udayanga",
+      img: 27,
+      gender: 1
     },
     {
-      name: "Anjana viduranga",
-      img: 28
+      name: "Buvindu Suraweera",
+      img: 28,
+      gender: 1
     },
     {
-      name: "Sithum De Zoysa",
-      img: 29
+      name: "Jayaneth Gunarathna",
+      img: 29,
+      gender: 1
     },
     {
-      name: "Sandaru Gangul",
-      img: 30
+      name: "Dinil Wickramasinghe",
+      img: 30,
+      gender: 1
     },
     {
-      name: "Sahan Madusanka",
-      img: 31
+      name: "Navod Caldera",
+      img: 31,
+      gender: 1
     },
     {
-      name: "Daham Dulara Perera",
-      img: 32
+      name: "Sihal Munidasa ",
+      img: 32,
+      gender: 1
     },
     {
-      name: "Dinara Thisaranee",
-      img: 33
+      name: "Nepul Weerawardhane ",
+      img: 33,
+      gender: 1
     },
     {
-      name: "Dasun Randeepa",
-      img: 34
+      name: "Manushan Hasanka",
+      img: 34,
+      gender: 1
     },
     {
-      name: "Tharindu Rukshan",
-      img: 35
+      name: "Daniel Victor",
+      img: 35,
+      gender: 1
     },
     {
-      name: "W.K.Sakith Nethkalana",
-      img: 36
+      name: "Lasen Nimsilu",
+      img: 36,
+      gender: 1
     },
     {
-      name: "Sunath",
-      img: 37
+      name: "Maneth Paranayapa",
+      img: 37,
+      gender: 1
     },
     {
-      name: "Nethmi Amasha",
-      img: 38
+      name: "Deepaja Premathilaka",
+      img: 38,
+      gender: 1
     },
     {
-      name: "Jineth Morawaka",
-      img: 39
+      name: "Ashen Dilhara ",
+      img: 39,
+      gender: 1
     },
     {
-      name: "Kevin Weston",
-      img: 40
+      name: "Lelum edirisinghe",
+      img: 40,
+      gender: 1
     },
     {
-      name: "Saviru",
-      img: 41
+      name: "Jayath Wattewewa",
+      img: 41,
+      gender: 1
     },
     {
-      name: "himan senaweera",
-      img: 42
+      name: "Penuka Shenal",
+      img: 42,
+      gender: 1
     },
     {
-      name: "Ishan Anjana",
-      img: 43
+      name: "Mevan Laknidu",
+      img: 43,
+      gender: 1
     },
     {
-      name: "Vimukthi Thejan",
-      img: 44
+      name: "Sethum Perera",
+      img: 44,
+      gender: 1
     },
     {
-      name: "Sakith Siriwardana",
-      img: 45
+      name: "Dulaksha Madhushan",
+      img: 45,
+      gender: 1
     },
     {
-      name: "Dinura Jayaweera",
-      img: 46
+      name: "Imash",
+      img: 46,
+      gender: 1
     },
     {
-      name: "Waruna Sachithra",
-      img: 47
+      name: "Isuru Umayanga",
+      img: 47,
+      gender: 1
     },
     {
-      name: "Isuru Anuraja Waduge",
-      img: 48
+      name: "Nilupul Ruvinda",
+      img: 48,
+      gender: 1
     },
     {
-      name: "Dasun randesh gammanpila",
-      img: 49
+      name: "Nisal Poorna ",
+      img: 49,
+      gender: 1
     },
     {
-      name: "Malith Samarakoon",
-      img: 50
+      name: "Yasindu Dissanayake ",
+      img: 50,
+      gender: 1
     },
     {
-      name: "Nimeth Methnuka",
-      img: 51
+      name: "Janudi Dissanayake",
+      img: 51,
+      gender: 0
     },
     {
-      name: "Rahul jeewan",
-      img: 52
+      name: "Nishara Perera ",
+      img: 52,
+      gender: 0
     },
     {
-      name: "Oneli Bandaranayake",
-      img: 53
+      name: "Tharani Pathirana ",
+      img: 53,
+      gender: 0
     },
     {
-      name: "Hasindu Warnapura",
-      img: 54
+      name: "Thulani Jayathilake ",
+      img: 54,
+      gender: 0
     },
     {
-      name: "Samitha",
-      img: 55
+      name: "Dulasha Perera",
+      img: 55,
+      gender: 0
     },
     {
-      name: "Banuka liyanage",
-      img: 56
+      name: "Ewmi Wijesinghe",
+      img: 56,
+      gender: 0
     },
     {
-      name: "Rivindu Vinsara",
-      img: 57
+      name: "Shalani Upekshani",
+      img: 57,
+      gender: 0
     },
     {
-      name: "Lakshitha Kavinda",
-      img: 58
+      name: "Sewni Jayawardana ",
+      img: 58,
+      gender: 0
     },
     {
-      name: "Thilina  Nirmal Bandara",
-      img: 59
+      name: "Rameesha Prathapasinghe ",
+      img: 59,
+      gender: 0
     },
     {
-      name: "Venuri Dissanayake",
-      img: 60
+      name: "Nihinsa Wijayapathirathna",
+      img: 60,
+      gender: 0
     },
     {
-      name: "Bashitha shamila",
-      img: 61
+      name: "Minhaj Ali",
+      img: 61,
+      gender: 1
     },
     {
-      name: "Manthila Gamage",
-      img: 62
+      name: "Heshan Dayarathna ",
+      img: 62,
+      gender: 1
     },
     {
-      name: "Binuri Weerasinghe",
-      img: 63
+      name: "Hiran Dharmapala ",
+      img: 63,
+      gender: 1
     },
     {
-      name: "Prashan",
-      img: 64
+      name: "Shehan Harshana",
+      img: 64,
+      gender: 1
     },
     {
-      name: "Lakmini Vithanawasam",
-      img: 65
+      name: "Isum Weerasinghe ",
+      img: 65,
+      gender: 1
     },
     {
-      name: "Nawanka Jayasinghe",
-      img: 66
+      name: "Kusal Nirukshan",
+      img: 66,
+      gender: 1
     },
     {
-      name: "Anujaya Vidmal",
-      img: 67
+      name: "Yasindu Mahaarachchi ",
+      img: 67,
+      gender: 1
     },
     {
-      name: "Heliya Nithira Suriya Bandara",
-      img: 68
+      name: "Seynath Chathwara Suraweera",
+      img: 68,
+      gender: 1
     },
     {
-      name: "Nikila Jayarathna",
-      img: 69
+      name: "Lahiru Perera",
+      img: 69,
+      gender: 1
     },
     {
-      name: "Anouk Jayasinghe",
-      img: 70
+      name: "Thisanda Mindisa",
+      img: 70,
+      gender: 1
     },
     {
-      name: "Vishwa Jayaweera",
-      img: 71
+      name: "Akash Madhubhashana ",
+      img: 71,
+      gender: 1
     },
     {
-      name: "Vishalya De Silva",
-      img: 72
+      name: "Kaveen Amarasekara",
+      img: 72,
+      gender: 1
     },
     {
-      name: "Sithmi Senanayake",
-      img: 73
+      name: "Anuka Goonathilake ",
+      img: 73,
+      gender: 1
     },
     {
-      name: "K.L.Chathurangi",
-      img: 74
+      name: "Minthaka Rashan ",
+      img: 74,
+      gender: 1
     },
     {
-      name: "Vidura Malshan",
-      img: 75
+      name: "Gathika Munasinghe",
+      img: 75,
+      gender: 1
     },
     {
-      name: "Savin Weerasooriya",
-      img: 76
+      name: "Daniru Dinsara ",
+      img: 76,
+      gender: 1
     },
     {
-      name: "Osanda Samaratunge",
-      img: 77
+      name: "Chamindu Gamage",
+      img: 77,
+      gender: 1
     },
     {
-      name: "Sanjaya Kulasingha",
-      img: 78
+      name: "Danul Renuja",
+      img: 78,
+      gender: 1
     },
     {
-      name: "Kavindu Lakshitha",
-      img: 79
+      name: "Uthpala Senarath ",
+      img: 79,
+      gender: 1
     },
     {
-      name: "Anuja Kalhara",
-      img: 80
+      name: "Lasan Perera",
+      img: 80,
+      gender: 1
     },
     {
-      name: "Kithmina Bihara",
-      img: 81
+      name: "Nisal Wilochana ",
+      img: 81,
+      gender: 1
     },
     {
-      name: "Yasiru nilupul",
-      img: 82
+      name: "Tharaka Denuwan",
+      img: 82,
+      gender: 1
     },
     {
-      name: "Janindu Hemachandra",
-      img: 83
+      name: "Minusha Perera",
+      img: 83,
+      gender: 1
     },
     {
-      name: "Janindu Mahathanthila",
-      img: 84
+      name: "Dhashintha Erandha",
+      img: 84,
+      gender: 1
     },
     {
-      name: "Movindu Hiripitiya",
-      img: 85
+      name: "Dulana Pitiwaduge ",
+      img: 85,
+      gender: 1
     },
     {
-      name: "Dilmi Induwari Weerasekara",
-      img: 86
+      name: "Disura Vidmal",
+      img: 86,
+      gender: 1
     },
     {
-      name: "Sanuji",
-      img: 87
+      name: "Ranuga Weerasekara",
+      img: 87,
+      gender: 1
     },
     {
-      name: "Devram Tharindu Saparamadu",
-      img: 88
+      name: "Bavindu Abhilash",
+      img: 88,
+      gender: 1
     },
     {
-      name: "Himasara Kulasinghe",
-      img: 89
+      name: "Tharusha kariyawasam ",
+      img: 89,
+      gender: 1
     },
     {
-      name: "Nethmi Gamage",
-      img: 90
+      name: "Lithira Mendis",
+      img: 90,
+      gender: 1
     },
     {
-      name: "Vimalshi Perera",
-      img: 91
+      name: "Piyumi Nipunika",
+      img: 91,
+      gender: 0
     },
     {
-      name: "Ravindu Rashmika",
-      img: 92
+      name: "Gagani Dissanayake",
+      img: 92,
+      gender: 0
     },
     {
-      name: "Sandali Dheerasinghe",
-      img: 93
+      name: "Janeesha Hasadara ",
+      img: 93,
+      gender: 0
     },
     {
-      name: "Himeth Walgampaya",
-      img: 94
+      name: "Chelsi Jayakody",
+      img: 94,
+      gender: 0
     },
     {
-      name: "Sandali Uthpala",
-      img: 95
+      name: "Yukthi Yudara ",
+      img: 95,
+      gender: 0
     },
     {
-      name: "Chamodi Nethminie",
-      img: 96
+      name: "Thisal Kokuhennadi",
+      img: 96,
+      gender: 1
     },
     {
-      name: "Sineth Jayawardena",
-      img: 97
+      name: "Sahan abhiman",
+      img: 97,
+      gender: 1
     },
     {
-      name: "Helini Dihansa",
-      img: 98
+      name: "Tharusha perera",
+      img: 98,
+      gender: 1
     },
     {
-      name: "Savithi Nimhara Wickramanayake",
-      img: 99
+      name: "Mathisha Pamuditha",
+      img: 99,
+      gender: 1
     },
     {
-      name: "Yasas Udakara",
-      img: 100
+      name: "Akisara Dulaj Hansindu ",
+      img: 100,
+      gender: 1
     },
     {
-      name: "Shen Dilhara",
-      img: 101
+      name: "Dilith Abeywarna",
+      img: 101,
+      gender: 1
     },
     {
-      name: "Jegatheesan Kavienan",
-      img: 102
+      name: "Kushen Amarasinghe ",
+      img: 102,
+      gender: 1
     },
     {
-      name: "Bineth Halambage",
-      img: 103
+      name: "Pamath Weerasuriya",
+      img: 103,
+      gender: 1
     },
     {
-      name: "Abraham Thulani Niveka",
-      img: 104
+      name: "Dinura Dilanka Perera ",
+      img: 104,
+      gender: 1
     },
     {
-      name: "Thushari Chandana",
-      img: 105
+      name: "Ashan Indunil",
+      img: 105,
+      gender: 1
     },
     {
-      name: "S.A.Ranudi Nisalya",
-      img: 106
+      name: "Imesha Udayangani",
+      img: 106,
+      gender: 0
     },
     {
-      name: "Anupa Rajapaksha",
-      img: 107
+      name: "Bashani Prabuddhika",
+      img: 107,
+      gender: 0
     },
     {
-      name: "Rakindu Paranayapa",
-      img: 108
+      name: "Minoli Rathnayake ",
+      img: 108,
+      gender: 0
     },
     {
-      name: "Pulina wickramasooriya",
-      img: 109
+      name: "Himandhi Kuruppu ",
+      img: 109,
+      gender: 0
     },
     {
-      name: "Lakshika Athukorala Senevirathne",
-      img: 110
+      name: "Thuvini Mahagamage ",
+      img: 110,
+      gender: 0
     },
     {
-      name: "Savithi Hansadi",
-      img: 111
+      name: "Januka Sanujaya",
+      img: 111,
+      gender: 1
     },
     {
-      name: "Hiyumi Dilmani Suriyapperuma",
-      img: 112
+      name: "Pemitha Jayasinghe",
+      img: 112,
+      gender: 1
     },
     {
-      name: "Thanuja Lakshan Munasinghe",
-      img: 113
+      name: "Maneth Perera",
+      img: 113,
+      gender: 1
     },
     {
-      name: "Anuradha Shanuka Panagoda",
-      img: 114
+      name: "Sheron jayasinghe",
+      img: 114,
+      gender: 1
     },
     {
-      name: "Ravindi",
-      img: 115
+      name: "Chamod Lakshitha",
+      img: 115,
+      gender: 1
     },
     {
-      name: "Yoshmika Sandeepa",
-      img: 116
+      name: "Havindu Chandira",
+      img: 116,
+      gender: 1
     },
     {
-      name: "Nilakna Warushavithana",
-      img: 117
+      name: "Sandul Ranmuthu",
+      img: 117,
+      gender: 1
     },
     {
-      name: "Ushan Viduranga",
-      img: 118
+      name: "Sakila thejana",
+      img: 118,
+      gender: 1
     },
     {
-      name: "Ivindu Siriwardhana",
-      img: 119
+      name: "Yohan Bandara",
+      img: 119,
+      gender: 1
     },
     {
-      name: "Disuru Dilmith",
-      img: 120
-    },
-    {
-      name: "Induwara Bandara",
-      img: 121
+      name: "Anuk Abeysinghe",
+      img: 120,
+      gender: 1
     }
   ]
