@@ -11,55 +11,95 @@ export const useData = ( ) =>{
 
 const teamData = [
     {
-        name:'White Wolves',
-        balance: 8000,
-        short:'WW',
+        name:'Pansalwatta Killers',
+        balance: 700000,
+        short:'PK',
         color:'#05BAD9',
         girls: 0,
         boys: 0,
         total: 0
     },
     {
-        name:'Blue Titans',
-        balance: 8000,
-        short:'BT',
+        name:'Kalana Saha Puthrayo',
+        balance: 700000,
+        short:'KS',
         color:'#291FC0',
         girls: 0,
         boys: 0,
         total: 0
     },
     {
-        name:'Red Raptors',
-        balance: 8000,
-        short:'RR',
+        name:'Wijayarathna Tours',
+        balance: 700000,
+        short:'WT',
         color:'#DE0500',
         girls: 0,
         boys: 0,
         total: 0
     },
     {
-        name:'Golden Lions',
-        balance: 8000,
-        short:'GL',
+        name:'Bawane Panu Meeyo',
+        balance: 700000,
+        short:'BP',
         color:'#F4A735',
         girls: 0,
         boys: 0,
         total: 0
     },
     {
-        name:'Black Panthers',
-        balance: 8000,
-        short:'BP',
+        name:'Goraka Gladiators',
+        balance: 700000,
+        short:'GG',
         color:'#7C7C7C',
         girls: 0,
         boys: 0,
         total: 0
     },
     {
-        name:'Green Gladiators',
-        balance: 8000,
-        short:'GG',
+        name:'Thummulle Geeks',
+        balance: 700000,
+        short:'TG',
         color:'#2D9312',
+        girls: 0,
+        boys: 0,
+        total: 0
+        //color:'#01371F'
+    },
+    {
+        name:'Angoda Picco',
+        balance: 700000,
+        short:'AP',
+        color:'#28b463',
+        girls: 0,
+        boys: 0,
+        total: 0
+        //color:'#01371F'
+    },
+    {
+        name:'Thuthukudi Thakkadiyo',
+        balance: 700000,
+        short:'TT',
+        color:'#17202a',
+        girls: 0,
+        boys: 0,
+        total: 0
+        //color:'#01371F'
+    },
+    {
+        name:'Okapathana Pythons',
+        balance: 700000,
+        short:'OP',
+        color:'#6c3483',
+        girls: 0,
+        boys: 0,
+        total: 0
+        //color:'#01371F'
+    },
+    {
+        name:'Sri Lanka Jathika Kandayama',
+        balance: 700000,
+        short:'SL',
+        color:'#6e2c00',
         girls: 0,
         boys: 0,
         total: 0
