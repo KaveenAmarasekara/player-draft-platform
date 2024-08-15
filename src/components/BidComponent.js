@@ -38,21 +38,21 @@ const BidComponent = () => {
                     <ButtonToolbar aria-label="Toolbar with button groups">
                         <ButtonGroup className="me-2" aria-label="First group" size="lg">
                             <Button style={{border:'1px solid #000000',color: '#000000'}} variant='light' onClick={()=>{
-                                if (bid <= 200) {
+                                if (bid <= 200000) {
                                     // Decrease by 20 until bid is 100
-                                    updateBid(Math.max(bid - 10, 0));
+                                    updateBid(Math.max(bid - 5000, 0));
                                 } else {
-                                    // Decrease by 25 after bid is 200
-                                    updateBid(Math.max(bid - 25, 200));
+                                    // Decrease by 25 after bid is 200000
+                                    updateBid(Math.max(bid - 10000, 200000));
                                 }
                             }}>-</Button>
                             <Button style={{border:'1px solid #000000',color: '#000000'}} variant='light'  onClick={()=>{
-                                if (bid<200){
-                                    // Increase by 20 up to 200
-                                    updateBid(bid+10);
+                                if (bid<200000){
+                                    // Increase by 20 up to 200000
+                                    updateBid(bid+5000);
                                 } else{
                                     // Increase by 25 upto infinity :)
-                                    updateBid(bid+25);
+                                    updateBid(bid+10000);
                                 }
                             }}>+</Button>
                         </ButtonGroup>

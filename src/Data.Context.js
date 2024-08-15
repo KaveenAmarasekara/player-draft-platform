@@ -12,7 +12,7 @@ export const useData = ( ) =>{
 const teamData = [
     {
         name:'Pansalwatta Killers',
-        balance: 700000,
+        balance: 800000,
         short:'PK',
         color:'#05BAD9',
         girls: 0,
@@ -21,7 +21,7 @@ const teamData = [
     },
     {
         name:'Kalana Saha Puthrayo',
-        balance: 700000,
+        balance: 800000,
         short:'KS',
         color:'#291FC0',
         girls: 0,
@@ -30,7 +30,7 @@ const teamData = [
     },
     {
         name:'Wijayarathna Tours',
-        balance: 700000,
+        balance: 800000,
         short:'WT',
         color:'#DE0500',
         girls: 0,
@@ -39,7 +39,7 @@ const teamData = [
     },
     {
         name:'Bawane Panu Meeyo',
-        balance: 700000,
+        balance: 800000,
         short:'BP',
         color:'#F4A735',
         girls: 0,
@@ -48,7 +48,7 @@ const teamData = [
     },
     {
         name:'Goraka Gladiators',
-        balance: 700000,
+        balance: 800000,
         short:'GG',
         color:'#7C7C7C',
         girls: 0,
@@ -57,7 +57,7 @@ const teamData = [
     },
     {
         name:'Thummulle Geeks',
-        balance: 700000,
+        balance: 800000,
         short:'TG',
         color:'#2D9312',
         girls: 0,
@@ -67,7 +67,7 @@ const teamData = [
     },
     {
         name:'Angoda Picco',
-        balance: 700000,
+        balance: 800000,
         short:'AP',
         color:'#28b463',
         girls: 0,
@@ -77,7 +77,7 @@ const teamData = [
     },
     {
         name:'Thuthukudi Thakkadiyo',
-        balance: 700000,
+        balance: 800000,
         short:'TT',
         color:'#17202a',
         girls: 0,
@@ -87,7 +87,7 @@ const teamData = [
     },
     {
         name:'Okapathana Pythons',
-        balance: 700000,
+        balance: 800000,
         short:'OP',
         color:'#6c3483',
         girls: 0,
@@ -97,7 +97,7 @@ const teamData = [
     },
     {
         name:'Sri Lanka Jathika Kandayama',
-        balance: 700000,
+        balance: 800000,
         short:'SL',
         color:'#6e2c00',
         girls: 0,
