@@ -1,5 +1,5 @@
 import { createContext ,useContext,useState,useEffect} from 'react'
-import { playerProfiles } from './Players'
+import { playerProfiles } from './Players.js'
 
 
 const DataContext = createContext()
@@ -11,110 +11,69 @@ export const useData = ( ) =>{
 
 const teamData = [
     {
-        name:'Pansalwatta Killers',
-        balance: 800000,
-        short:'PK',
+        name:'White Wolves',
+        balance: 8000,
+        short:'WW',
         color:'#05BAD9',
         girls: 0,
         boys: 0,
         total: 0
     },
     {
-        name:'Kalana Saha Puthrayo',
-        balance: 800000,
-        short:'KS',
+        name:'Blue Titans',
+        balance: 8000,
+        short:'BT',
         color:'#291FC0',
         girls: 0,
         boys: 0,
         total: 0
     },
     {
-        name:'Wijayarathna Tours',
-        balance: 800000,
-        short:'WT',
+        name:'Red Raptors',
+        balance: 8000,
+        short:'RR',
         color:'#DE0500',
         girls: 0,
         boys: 0,
         total: 0
     },
     {
-        name:'Bawane Panu Meeyo',
-        balance: 800000,
-        short:'BP',
+        name:'Golden Lions',
+        balance: 8000,
+        short:'GL',
         color:'#F4A735',
         girls: 0,
         boys: 0,
         total: 0
     },
     {
-        name:'Goraka Gladiators',
-        balance: 800000,
-        short:'GG',
+        name:'Black Panthers',
+        balance: 8000,
+        short:'BP',
         color:'#7C7C7C',
         girls: 0,
         boys: 0,
         total: 0
     },
     {
-        name:'Thummulle Geeks',
-        balance: 800000,
-        short:'TG',
+        name:'Green Gladiators',
+        balance: 8000,
+        short:'GG',
         color:'#2D9312',
         girls: 0,
         boys: 0,
         total: 0
-        //color:'#01371F'
-    },
-    {
-        name:'Angoda Picco',
-        balance: 800000,
-        short:'AP',
-        color:'#28b463',
-        girls: 0,
-        boys: 0,
-        total: 0
-        //color:'#01371F'
-    },
-    {
-        name:'Thuthukudi Thakkadiyo',
-        balance: 800000,
-        short:'TT',
-        color:'#17202a',
-        girls: 0,
-        boys: 0,
-        total: 0
-        //color:'#01371F'
-    },
-    {
-        name:'Okapathana Pythons',
-        balance: 800000,
-        short:'OP',
-        color:'#6c3483',
-        girls: 0,
-        boys: 0,
-        total: 0
-        //color:'#01371F'
-    },
-    {
-        name:'Sri Lanka Jathika Kandayama',
-        balance: 800000,
-        short:'SL',
-        color:'#6e2c00',
-        girls: 0,
-        boys: 0,
-        total: 0
-        //color:'#01371F'
-    },
+    }
 ]
 
 
 export const DataProvider = ({children}) => {
 
-    const [bid, updateBid] = useState(0)
+    const [bid, updateBid] = useState(0);
     const [confirm, setConfirm] = useState(false);
-    const [curr, setCurr] = useState(null)
-    const [his, setHis] = useState([])
-    const [playerIndex, setPlayerIndex] = useState(0)
+    const [curr, setCurr] = useState(null);
+    const [his, setHis] = useState([]);
+    const [playerIndex, setPlayerIndex] = useState(0);
 
     const [teams, setTeams] = useState(()=>{
         const localTeamsData = localStorage.getItem('teams')

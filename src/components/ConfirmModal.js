@@ -53,9 +53,9 @@ const ConfirmModal = () => {
 
           
 
-          /*console.log("Teams array:", teams);
+          console.log("Teams array:", teams);
           console.log("Current index:", curr);
-          console.log("Current team:", teams[curr]);*/
+          console.log("Current team:", teams[curr]);
       }
 
       setConfirm(false)
@@ -85,7 +85,7 @@ const ConfirmModal = () => {
         </Modal.Header>
 
         <Modal.Body style={{width:'300px', alignSelf:'center'}}>
-            {/* <Image src={getTeamImagePath(curr)} fluid rounded /> */}
+            {<Image src={getTeamImagePath(curr)} fluid rounded />}
             <div style={{ textAlign: 'center', marginTop: '1em'}}>
                 <label style={{
                     fontWeight: 'bold', 

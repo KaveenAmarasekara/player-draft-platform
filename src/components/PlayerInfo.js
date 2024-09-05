@@ -53,13 +53,15 @@ const PlayerInfo = () => {
             <Col style={{textAlign:'center', color:'wheat', marginLeft:'3em', marginRight:'3em',borderRadius:'2em', backgroundColor:'darkgreen'}}>Sold: {sold = 120-remain}</Col>
         </Row>
         </div>
-        {/*
+        {
+        /*
         <Image 
+        
             src={require('../Assets/banner.jpg')}
             style={{margin:"0.8em",marginTop:'1em',borderRadius:'1em',objectFit:'cover',width:'96.5%'}}
             fluid
-        />
-        */}
+        />*/
+        }
         </>
      );
 }
