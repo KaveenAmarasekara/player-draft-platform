@@ -26,18 +26,17 @@ const BidComponent = () => {
 
     return ( 
         <>
-        <Stack gap={.5}>
+        <Stack gap={1}>
 
-            <div className=" bid-row">
-                <div><h4>Bid</h4></div>
-                <div style={{textAlign:'center', borderRadius:'1.2em', backgroundColor:'lightpink'}}><h1>{bid} L</h1></div>
+            <div className="bid-row">
+                <div style={{fontSize:'2em', marginBottom:'0.5em'}}>Bid</div>
+                <div style={{fontSize:'3em',textAlign:'center', borderRadius:'1.2em', backgroundColor:'lightpink'}}>{bid} L</div>
                 <hr/>
 
-                <Row style={{}}>
-                    <Row>
-                    <ButtonToolbar aria-label="Toolbar with button groups">
-                        <ButtonGroup className="me-2" aria-label="First group" size="lg">
-                            <Button style={{border:'1px solid #000000',color: '#000000'}} variant='light' onClick={()=>{
+                <>
+                    <ButtonToolbar aria-label="Toolbar with button groups" style={{justifyContent:'center'}}>
+                        <ButtonGroup className="mb-2" aria-label="First group" size="lg">
+                            <Button style={{border:'1px solid #000000',color: '#000000', padding:'1.5em'}} variant='light' onClick={()=>{
                                 if (bid <= 200000) {
                                     // Decrease by 20 until bid is 100
                                     updateBid(Math.max(bid - 5000, 0));
@@ -46,7 +45,7 @@ const BidComponent = () => {
                                     updateBid(Math.max(bid - 10000, 200000));
                                 }
                             }}>-</Button>
-                            <Button style={{border:'1px solid #000000',color: '#000000'}} variant='light'  onClick={()=>{
+                            <Button style={{border:'1px solid #000000',color: '#000000', padding:'1.5em'}} variant='light'  onClick={()=>{
                                 if (bid<200000){
                                     // Increase by 20 up to 200000
                                     updateBid(bid+5000);
@@ -57,24 +56,25 @@ const BidComponent = () => {
                             }}>+</Button>
                         </ButtonGroup>
                     </ButtonToolbar>
-                    </Row>
+                    
 
-                    <Row style={{width:'220px',border:'1px solid #000000',borderRadius:'1em', margin:'0.5em'}} md={7}>
+                    <Row style={{padding:'.5em',gap:'1em',width:'100%',border:'1px solid #000000', borderRadius:'1em', margin:'0.5em', justifyContent:'center',}} md={4}>
                         {teams.map((team,index)=>{
                             return(
-                                <Button variant='light' style={{width:'50px',borderRadius:'2em',margin:'0.45em',fontSize:'0.7em',fontWeight:'600',color:'#ffffff',backgroundColor:`${team.color}`}} onClick={()=>history(index)} key={index}>{team.short}</Button>
+                                <Button variant='light' style={{borderRadius:'2em',padding:'0.75em', fontWeight:'600', color:'#ffffff',backgroundColor:`${team.color}`}} onClick={()=>history(index)} key={index}>{team.short}</Button>
                             )
                         })}
                     </Row>
-                </Row>
+                
+                </>
             </div>
 
 
             <div className="bid-row bid-history">
-                <h6>History</h6>
+                <div style={{fontSize:'1.5em', marginBottom:'0.5em'}}>History</div>
                 <div style={{overflowY:'scroll',overflowX:'hidden', minHeight:'35vh',maxHeight:'35vh'}}>
                     {his.slice(0).reverse().map((item,index)=>(
-                        <Row style={{fontSize:'1em',padding:'0.5em',color:'#868686', borderTop:'1px solid #868686'}} key={index}>
+                        <Row style={{fontSize:'1.25em',padding:'0.5em',color:'#861659', borderTop:'1px solid #868686'}} key={index}>
                             <Col>{item.team}</Col>
                             <Col style={{textAlign:'right'}} md={4}>{item.bid}</Col>
                         </Row>

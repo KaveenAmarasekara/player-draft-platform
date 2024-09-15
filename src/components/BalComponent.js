@@ -10,7 +10,7 @@ const BalComponent = () => {
 
     return ( 
         <div className='bal-container'>
-            <h4 style={{marginBottom:'1em'}}>Balance</h4>
+            <h4 style={{fontSize:'2em', marginBottom:'1em'}}>Balance</h4>
             
             {teams.map((team,index)=>(
                     <Row style={{backgroundColor:'#ffffff',fontSize:'1.3em',paddingTop:'0.6em',paddingBottom:'0.5em', margin:'0.1em',fontWeight:'bold', borderTop: '1.5px solid #020024'}} key={index}>
