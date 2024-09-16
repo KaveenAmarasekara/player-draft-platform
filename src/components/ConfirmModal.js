@@ -14,6 +14,24 @@ const ConfirmModal = () => {
     const {confirm,setConfirm,curr,teams,setTeams,bid,updateBid,setHis,playerIndex,players,setPlayers} = useData()
     const handleClose = () => setConfirm(false);
 
+
+    function genderSelect(){
+            
+      const gender = players[playerIndex].gender
+      if(gender === 1){
+        const boys = teams[curr].boys + 1;
+      return boys
+      }
+      else if(gender === 0){
+        const girls = teams[curr].girls + 1;
+      return girls
+      }
+      else{
+        alert("Gender undefined")
+      }
+      
+    }
+
     function sold(){
       if (curr != null){
           const currentBal = teams[curr].balance - bid
@@ -23,22 +41,7 @@ const ConfirmModal = () => {
           let girls = 0;
           let Total = 0;
           genderSelect(curr)
-          function genderSelect(){
-            
-            const gender = players[playerIndex].gender
-            if(gender == 1){
-              const boys = teams[curr].boys + 1;
-            return boys
-            }
-            else if(gender == 0){
-              const girls = teams[curr].girls + 1;
-            return girls
-            }
-            else{
-              alert("Gender undefined")
-            }
-            
-          }
+          
 
           newlist[curr].boys = boys
           newlist[curr].girls = girls
