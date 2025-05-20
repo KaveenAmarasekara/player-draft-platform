@@ -15,37 +15,57 @@ const ConfirmModal = () => {
     const handleClose = () => setConfirm(false);
 
 
-    function genderSelect(){
+    // function genderSelect(){
             
-      const gender = players[playerIndex].gender
-      if(gender === 1){
-        const boys = teams[curr].boys + 1;
-      return boys
-      }
-      else if(gender === 0){
-        const girls = teams[curr].girls + 1;
-      return girls
-      }
-      else{
-        alert("Gender undefined")
-      }
+    //   const gender = players[playerIndex].gender
+    //   if(gender === 1){
+    //     const boys = teams[curr].boys + 1;
+    //   return boys
+    //   }
+    //   else if(gender === 0){
+    //     const girls = teams[curr].girls + 1;
+    //   return girls
+    //   }
+    //   else{
+    //     alert("Gender undefined")
+    //   }
       
-    }
+    // }
+    let boys = 0;
+    let girls = 0;
+    let Total = 0;
 
     function sold(){
       if (curr != null){
           const currentBal = teams[curr].balance - bid
           const newlist = [...teams]
           newlist[curr].balance = currentBal
-          let boys = 0;
-          let girls = 0;
-          let Total = 0;
-          genderSelect(curr)
+          
+          
+          //genderSelect(curr)
+
+          const gender = players[playerIndex].gender
+          if(gender === 1){
+            boys = teams[curr].boys + 1;
+            girls = teams[curr].girls;
+            Total = boys + teams[curr].girls;
+          
+          }
+          else if(gender === 0){
+            girls = teams[curr].girls + 1;
+            boys = teams[curr].boys;
+            Total = teams[curr].boys + girls;
+          
+          }
+          else{
+            alert("Gender undefined")
+          }
+
           
 
           newlist[curr].boys = boys
           newlist[curr].girls = girls
-          newlist[curr].total = boys + girls
+          newlist[curr].total = Total
           setTeams(newlist)
           setHis([])
           updateBid(0)
